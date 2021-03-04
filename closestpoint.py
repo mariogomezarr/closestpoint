@@ -71,4 +71,4 @@ def find_closest_points(dataset1, dataset2, output_unite = 'kilometers'):
 
 def save_csv(df, str_path):
 
-    df.to_csv(str_path)
+    df.to_csv(str_path, index = False)
